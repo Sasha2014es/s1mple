@@ -1,0 +1,106 @@
+body {
+    font-family: sans-serif;
+    background-color: yellow;
+}
+
+header {
+    background-color: orange;
+    padding: 5px;
+}
+
+.logo{
+    width: 209px;
+    height: 167px;
+}
+
+nav{
+   margin: 20px 0px;
+   text-align: center;
+   padding: 20px 0px;
+   background-color: blue;
+
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: 60px; 
+    color: lightgreen;
+    margin: 10px;
+}
+
+.main_img{
+    width: 100%;
+    height: 30%;
+}
+
+h1 {
+    font-size: 36px;
+    color: red;
+    font-weight: normal;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: orange;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    background-color: yellow;
+    padding: 5px;
+ }
+
+footer a {
+    background-color:blue ;
+    color: orange;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+p{
+    border: 10px ;
+    background-color: orange;
+    padding: 5px;
+}
+.menu{
+    background-color: white;
+    padding:5px
+    border-radius: 50px;
+  color:black
+   
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    font-size: 36px;
+    color: rgb(224, 68, 68);
+    font-weight: normal;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.cs{
+    width: 400px;
+    height: 200px;
+}
+.logo:hover {
+   border: 6px solid navy;
+   opacity: 1;
+   width: 650px;
+   height: 220px;
+   transform: 0.5s ease-out;
+   padding: 5px;
+}
+nav a:hover{
+    background-color: #c1c1c1;
+  color:black
+}
+.cs:hover{
+    width: 600px;
+    height: 300px;
+}
